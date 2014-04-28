@@ -7,7 +7,7 @@ RCSwitch mySwitch = RCSwitch();
 DHT dht;
 
 //Port for the webserver to listen on (default = 80)
-EthernetServer server(80);
+EthernetServer server(8088);
 
 //MAC Address of the ethernet card. Any valid hexidecimal pairs are fine
 byte mac[] = { 
