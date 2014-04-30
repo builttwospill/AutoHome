@@ -82,7 +82,8 @@ void loop() {
           client.println("<button name=b value=8 type=submit style=height:50px;width:100px>TV OFF</button>");
           client.println("</form><br />");
           
-          client.println("<p>(The temperature will refresh when you press a button.)</p></center>");
+          client.println("<p>The temperature will refresh anytime you press a button.<br />");
+          client.println("(served by an Arduino Uno)</p></center>");
           
           break;
         }
